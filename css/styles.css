@@ -123,7 +123,7 @@
     color: green;
   }
   
-  .submit {
+  .pwt-btn-submit {
     border: none;
     outline: none;
     background-color: royalblue;
@@ -134,7 +134,7 @@
     transform: .3s ease;
   }
   
-  .submit:hover {
+  .pwt-btn-submit:hover {
     background-color: rgb(56, 90, 194);
   }
   
