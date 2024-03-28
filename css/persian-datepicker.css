@@ -341,17 +341,20 @@
     .datepicker-plot-area .datepicker-navigator .pwt-btn-next,
     .datepicker-plot-area .datepicker-navigator .pwt-btn-switch,
     .datepicker-plot-area .datepicker-navigator .pwt-btn-prev {
-      display: block;
-      float: left;
-      height: 28px;
-      line-height: 28px;
-      font-weight: bold;
-      background-color: rgba(250, 250, 250, 0.1);
-      color: #005299; }
+        border: none;
+        outline: none;
+        background-color: royalblue;
+        padding: 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        transform: .3s ease;
+        height: 50px;
+    }
       .datepicker-plot-area .datepicker-navigator .pwt-btn-next:hover,
       .datepicker-plot-area .datepicker-navigator .pwt-btn-switch:hover,
       .datepicker-plot-area .datepicker-navigator .pwt-btn-prev:hover {
-        background-color: rgba(250, 250, 250, 0.3); }
+        background-color: rgba(56, 90, 194); }
     .datepicker-plot-area .datepicker-navigator .pwt-btn-next {
       display: block;
       width: 15%;
@@ -434,3 +437,4 @@
     .datepicker-container.pwt-mobile-view .datepicker-time-view .up-btn {
       height: 40px;
       line-height: 40px; }
+      .pwt-btn-switch
