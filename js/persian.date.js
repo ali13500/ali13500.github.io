@@ -7,6 +7,15 @@
  * 
  * 
  */
+/*!
+ * 
+ * persian-date -  1.1.0
+ * Reza Babakhani <babakhani.reza@gmail.com>
+ * http://babakhani.github.io/PersianWebToolkit/docs/persian-date/
+ * Under MIT license 
+ * 
+ * 
+ */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
