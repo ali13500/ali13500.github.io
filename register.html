@@ -228,19 +228,19 @@ header hr#thread6{
               <div class="row">
                 <div class="col">
               <label>
-                  <input required="" placeholder="" type="text" class="input">
+                  <input required="" name="name" type="text" class="input">
                   <span>نام</span>
               </label>
               </div>
               <div class="col">
               <label>
-                  <input required="" placeholder="" type="text" class="input">
+                  <input required="" name="famname" type="text" class="input">
                   <span>نام خانوادگی</span>
               </label>
           </div>  
           <div class="col"> 
           <label>
-              <input required="" type="text" class="input">
+              <input required="" name="fathername" type="text" class="input">
               <span>نام پدر</span>
           </label> 
               </div>
@@ -248,18 +248,18 @@ header hr#thread6{
               <div class="row">
               <div class="col">
           <label>
-              <input required="" placeholder="" type="text" class="date-input input">
+              <input required="" name="birthday" type="text" class="date-input input">
               <span>تاریخ تولد</span>
               </label>
           </div>
           <div class="col">
           <label>
-              <input required="" placeholder="" type="text" class="input">
+              <input required="" name="place-sh" type="text" class="input">
               <span>محل صدور شناسنامه</span>
               </div>
             <div class="col">
               <label for="">
-              <input required="" placeholder="" type="number" class="input">
+              <input required="" name="hight" type="number" class="input">
               <span>قد(سانتی متر)</span>
               </label>
               </div>
@@ -267,18 +267,18 @@ header hr#thread6{
               <div class="row">
               <div class="col">
           <label>
-              <input required="" placeholder="" type="number" class="input" min="10" max="150">
+              <input required="" name="weghit" type="number" class="input" min="10" max="150">
               <span>وزن</span>
               </label>
           </div>
           <div class="col">
           <label>
-              <input required="" placeholder="" type="text" class="input">
+              <input required="" name="tahsil" type="text" class="input">
               <span>تحصیلات</span>
               </div>
             <div class="col">
               <label for="">
-              <input required="" placeholder="" type="text" class="input hide" min="100000000">
+              <input required="" name="kodmeli" type="text" class="input hide" min="100000000">
               <span>شماره شناسنامه</span>
               </label>
               </div>
@@ -289,18 +289,20 @@ header hr#thread6{
           <div class="row">
             <div class="col">
         <label>
-            <input required="" placeholder="" type="text" class="input">
-            <span>رشته ورزشی</span>
+            <input disabled="" placeholder="والیبال" type="text" class="input" name="vollyball">
+            <span style="top: 30px;
+            font-size: 0.7em;
+            font-weight: 600;">رشته ورزشی</span>
             </label>
         </div>
         <div class="col">
         <label>
-            <input required="" placeholder="" type="number" class="input hide" step="10">
+            <input required="" name="bime number" type="number" class="input hide" step="10">
             <span>شماره کارت بیمه</span>
             </div>
           <div class="col">
-            <label for="">
-            <input required="" placeholder="" type="text" class="input date-input">
+            <label>
+            <input required="" name="bime-st" type="text" class="input date-input">
             <span>تاریخ شروع بیمه</span>
             </label>
             </div>
@@ -310,7 +312,7 @@ header hr#thread6{
             <div class="row">
               <div class="col">
           <label>
-              <input required="" placeholder="" type="number" class="input hide" min="0000000000" max="999999999999">
+              <input required="" placeholder="" type="number" class="input hide" min="9999999999" max="999999999999">
               <span>شماره تماس پدر</span>
               </label>
           </div>
