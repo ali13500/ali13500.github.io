@@ -37,7 +37,6 @@
     letter-spacing: -1px;
     position: relative;
     display: flex;
-    align-items: center;
     padding-left: 30px;
   }
   
@@ -47,7 +46,8 @@
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    left: 0px;
+    left: 20rem;
+    top: 1rem;
     background-color: royalblue;
   }
   
