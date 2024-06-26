@@ -31,6 +31,7 @@
     left: 18.75rem;
     top: 1rem;
     background-color: royalblue;
+    z-index : 0;
   }
 }
 .link-timetable {
