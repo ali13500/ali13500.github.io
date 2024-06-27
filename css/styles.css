@@ -1,7 +1,7 @@
 .nav-item {
     margin-left:  150px;
 }
-@media (min-width : 600px) {
+@media (min-width : 550px) {
     .img-info {
         float: left;
     }
@@ -20,7 +20,7 @@
     background-color: royalblue;
   }
 }
-@media (max-width : 600px) {
+@media (max-width : 550px) {
 
     .title::before,.title::after {
     position: absolute;
